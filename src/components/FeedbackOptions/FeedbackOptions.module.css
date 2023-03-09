@@ -1,0 +1,28 @@
+.btnList {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  margin: 2vw;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 12px 24px 12px 24px;
+  cursor: pointer;
+}
+
+.bad {
+  composes: btn;
+  background-color: #ee0f26;
+}
+.good {
+  composes: btn;
+  background-color: #058805;
+}
+.neutral {
+  composes: btn;
+  background-color: #afa20b;
+}

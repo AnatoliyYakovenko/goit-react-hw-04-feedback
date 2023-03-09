@@ -1,6 +1,9 @@
 .mainTitle {
+  padding: 20px;
   text-align: center;
   margin: 15px;
   font-size: 40px;
   font-weight: 700;
+  border-radius: 5px;
+  background-color: darkgray;
 }

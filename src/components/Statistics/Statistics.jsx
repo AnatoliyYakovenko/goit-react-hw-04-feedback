@@ -13,7 +13,7 @@ export const Statistics = ({ good, neutral, bad, total, positive }) => {
         <p className={css.total}>
         Total: {total}
         </p>
-        <p className={css.persent}>
+        <p className={css.perсent}>
         Positive feedback: {positive}%
         </p>
     </div>
